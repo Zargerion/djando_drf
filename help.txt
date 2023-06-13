@@ -1,0 +1,6 @@
+pip install Django
+django-admin startproject py_test
+python manage.py startapp app_in_proj
+python manage.py makemigrations (там можно подготовить модели к передачи в бд)
+python manage.py migrate (так можно создать бд или вписать в бд поля)
+python manage.py runserver
